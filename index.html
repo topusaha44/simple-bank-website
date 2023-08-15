@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+        <header>
+            <h1 class="text-5xl text-center">Welcome to your <span class="text-cyan-400 font-semibold">simple bank</span></h1>
+        </header>
+        <main class="mx-auto bg-teal-200 w-4/5">
+            <section class="p-7 ">
+                <p class="text-2xl font-medium">Please Login</p>
+                <input class="block mb-3 w-3/4 mt-4" type="email" name="" id="user-email" placeholder="your email address">
+                <input class="block mb-3 w-3/4 mt-4" type="password" name="" id="user-password" placeholder="your password">
+                <button id="btn-login" class="bg-slate-600  hover:bg-gray-50 px-8 py-2 text-white font-medium mt-2 hover:text-black rounded-lg">Submit</button>
+            
+            </section>
+        </main>
+        <script src="login.js"></script>
 </body>
 </html>
